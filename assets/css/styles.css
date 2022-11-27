@@ -1,0 +1,248 @@
+/* 
+ADJUSTING CSS BELOW IS NOT NECESSARY
+You may choose to practice css by making changes to visuals
+*/
+
+html {
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #3d2514;
+    background-image: url(../img/burger-bg.png);
+    background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+}
+    
+a, 
+a:focus, 
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffc045;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.button {
+    background-color: #bf2222;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 16px 40px;
+    line-height: normal;
+    display: inline-block;
+}
+
+.button:hover {
+    color:#fff;
+    background-color:#ffc045;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 30px 0;
+    background-color: #3d2514;
+    color: #ffffff;
+}
+
+
+/* 
+TODO: ELEMENTS THAT NEED FONT SIZING OR LAYOUT APPLIED
+
+- Utilize em, rem to control responsive font sizing for any typography
+- Flexbox and/or CSS Grid to control layout for at least one of the following sections: Hero, Menu, Features and Footer
+
+*/
+
+.container {
+display: flex;
+flex-direction: column;
+
+}
+
+.section-title {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 32px;
+}
+
+img {
+    height: fit-content;
+}
+
+/* Hero */
+
+.hero {
+ /* HINT: Add responsive font sizing for any typography for this section! */
+    display: flex;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.hero-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-item img {
+    height: 350px;
+    padding: 25px;
+
+}
+
+.hero-title {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 5px #fee7ba;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.hero-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* Menu */
+
+.menu {
+
+}
+
+.menu-item {
+    background-color: rgba(255, 192, 69, 0.8);
+    display: inline;
+}
+
+.menu-item img {
+
+}
+
+.menu-burger {
+    /* Don't forget to add responsive font sizing based on the mockup!  */
+    font-size: 28px;
+}
+
+.menu-description {
+    font-size: 20px;
+    
+}
+
+.menu-group {
+    display: flex;
+    padding: 25px;
+}
+
+.price {
+    background-color: #bf2222;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 16px 40px;
+    line-height: normal;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Features */
+.features-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.features-item {
+    margin: 25px;
+}
+
+.features-title {
+    font-size: 24px;
+}
+
+.features-description {
+    font-size: 20px;
+}
+
+/* Footer Styles */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-item {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.footer-title {
+    font-size: 20px;
+}
+
+.footer-description {
+    font-size: 16px;
+}
+/* 
+TODO: ADD MEDIA QUERIES BELOW 
+
+- Must adjust at least one element for 4 seperate breakpoints
+
+*/
+
